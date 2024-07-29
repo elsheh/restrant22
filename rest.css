@@ -1,0 +1,1968 @@
+
+/* دا هيكون تظبيط خامات الجزئ الاول */
+html{
+    scroll-behavior: smooth;
+}
+.head{
+    width: 1500px;
+    height: 740px;                    /* تعين حجم للبلوك المطلوب الشغل له */
+    background-color: #0d0d31;
+}
+.photo{
+    width: 1500px;
+    height: 740px;                   /* الصورة الى اتعملها شفافية وهتكون خلفية */
+    opacity: 0.15;
+    position: absolute;
+    top:6px ;
+
+}
+.fa-solidfa-utensils{
+    width: 50px;
+    height: 50px;
+    position: absolute;                            /* رمز جاهز من احدى المكتبات */
+    top: 35px;                                     /* (fontawosme) */
+    left: 55px;
+}
+.h1{
+    position: absolute;
+    top: -6px;
+    left: 113px;
+    color:  #fea116;
+    font-family: "M PLUS Rounded 1c", sans-serif;          /* نص عادى واتعدل عليه */
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+.l1{
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: -710px;                                             /* تنسيق قائم اعلى الصفحة */
+    left: 810px;
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bolder;
+}
+.l1:hover{
+    color:#fea116 ;
+}
+.l2{
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: -745px;
+    left: 1103px;
+    color: rgb(255, 255, 255);                              /* تنسيق القائمة المنسدلة */
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+
+}
+.l2:hover{
+    color:#fea116 ;
+}
+.l3{
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+    top: -781px;
+    left: 1210px;                                           /* تنسيق قائمة اعلى الصفحة */
+    color: white;
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bolder;
+}
+.l3:hover{
+    color:#fea116 ;
+}
+.p1{
+    width:165px ;
+    height: 57px;            
+    text-align: center;                                   /* عمل تنسيق للبلوك لعمل خانة للنص */
+    background-color: #fea116;
+    position: absolute;
+    top: 20px;
+    left: 1310px;
+}
+.p11{
+    color: white;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;                /* نص عادى معدل عليه */
+    text-transform: capitalize;
+}
+.p1:hover{
+    background-color: black;
+}
+.p11:hover{
+    color: #fea116;
+}
+.photo1{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -700px;                                         /* تنسيق صورة خاصة بالاعلان وتم اضافة عليها بعض العمليات المتحركة لجزب الانتباه */
+    left: 840px;
+    animation-name: photo1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes photo1{
+    from{
+        width: 500px;
+        height: 500px;
+        rotate:0;                                         /* الجزئ المسؤول عن الرسومات المتحركة */
+    }
+    to{
+        width: 550px;
+        height: 550px;
+        rotate: 360deg;
+    }
+}
+.h2{
+    color: rgb(255, 255, 255);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 400%;
+    font-weight: bolder;                                             /* نص عادى معدل عليه */
+    position: absolute;
+    top: 150px;
+    left: 113px;    
+}
+.h22{
+    color: rgb(255, 255, 255);
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-size: 400%;
+    font-weight: bolder;                                              /* نص عادى معدل عليه */
+    position: absolute;
+    top: 250px;
+    left: 113px;
+}
+.p2{
+    width: 615px;
+    position: absolute;                                                /* نص عادى معدل عليه */
+    top: 370px;
+    left: 113px;
+}
+.p22{
+    color: white;
+    font-weight: bold;                                                    /* نص عادى معدل عليه */
+    font-family: "M PLUS Rounded 1c", sans-serif;
+}
+.p3{
+    width:215px ;
+    height: 57px;
+    text-align: center;
+    background-color: #fea116;                                          /* عمل تنسيق للبلوك لعمل خانة للنص */     
+    position: absolute;
+    top: 515px;
+    left: 113px;
+}
+.p33{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;                                  /* نص عادى معدل عليه */
+    text-transform: capitalize;
+}
+.p3:hover{
+    background-color: black;
+}
+.p33:hover{
+    color: #fea116;
+}
+
+/* كدا انهاء من الجزئ الاول */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* الجزئ الخاص بتنصيق بلوكات الخدمات الموجودة فى الصفحة */
+.blok1{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;                           /* تنسيقات الخاصة بالبلوك الاول */
+    top: 845px;
+    left: 120px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.blok1:hover{
+    background-color: #000000;
+}
+.blok1:hover  h3.blok111{
+    color: #ffffff;
+}
+.blok1:hover  p.blok1111{
+    color: #ffffff;
+}
+.blok11{
+    width: 45px;
+    height: 121px;                                      /* التنسيق الخاص بالوسم او الايقونه للبلوك الاول */
+    padding-left: 20px;
+}
+.blok111{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق عنوان البلوك الاول */                              
+    position: absolute;
+    top: 85px;
+}
+.blok1111{
+    width: 195px;
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                 /* تنسيق النص الذي يصف هذد البلوك */
+    font-size: small;   
+    color: gray;
+}
+.blok2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;                                           /* تنسيقات الخاصة بالبلوك الثاني */
+    position: absolute;                                             
+    top: 845px;
+    left: 470px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.blok2:hover{
+    background-color: #000000;
+}
+.blok2:hover  h3.blok222{
+    color: #ffffff;
+}
+.blok2:hover  p.blok2222{
+    color: #ffffff;
+}
+.blok22{
+    width: 45px;
+    height: 121px;                                                     /* التنسيق الخاص بالوسم او الايقونه للبلوك الثانى */
+    padding-left: 20px;
+}
+.blok222{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                   /* تنسيق عنوان البلوك الثاني */                          
+    position: absolute;
+    top: 85px;
+}
+.blok2222{
+    width: 195px;
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق النص الذي يصف هذد البلوك */
+    font-size: small;  
+    color: grey;                                        
+}
+.blok3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 254, 254);
+    display: inline-block;                                            /* تنسيقات الخاصة بالبلوك الثالث */
+    position: absolute;                                             
+    top: 845px;
+    left: 820px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.blok3:hover{
+    background-color: #000000;
+}
+.blok3:hover  h3.blok333{
+    color: #ffffff;
+}
+.blok3:hover  p.blok3333{
+    color: #ffffff;
+}
+.blok33{
+    width: 45px;
+    height: 121px;                                                /* التنسيق الخاص بالوسم او الايقونه للبلوك الثالث */
+    padding-left: 20px;
+}
+.blok333{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                             /* تنسيق عنوان البلوك الثالث */                   
+    position: absolute;
+    top: 85px;
+}
+.blok3333{
+    width: 195px;
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                     /* تنسيق النص الذي يصف هذد البلوك */
+    font-size: small;  
+    color: gray;                                        
+}
+.blok4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;                                             /* تنسيقات الخاصة بالبلوك الرابع */
+    position: absolute;
+    top: 845px;
+    left: 1160px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.blok4:hover{
+    background-color: #000000;
+}
+.blok4:hover  h3.blok444{
+    color: #ffffff;
+}
+.blok4:hover  p.blok4444{
+    color: #ffffff;
+}
+.blok44{
+    width: 45px;
+    height: 121px;                                                  /* التنسيق الخاص بالوسم او الايقونه للبلوك الرابع */
+    padding-left: 20px;
+}
+.blok444{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                     /* تنسيق عنوان البلوك الرابع */                             
+    position: absolute;                                             
+    top: 85px;
+}
+.blok4444{
+    width: 195px;
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                      /* تنسيق النص الذي يصف هذد البلوك */
+    font-size: small;   
+    color: gray;                                       
+}
+/* الانتهاء من الجزئ الخاص بتنصيق بلوكات الخدمات الموجودة فى الصفحة */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*تنصيق الجزء الخاص بصور الدالة على الصقحة و نبزة عن الصفحة والترحيب*/
+.pic1{
+    width: 250px;
+    height: 250px;
+    position: absolute;                 /* تنسيق الصورة الاولى */
+    top: 1190px;
+    left: 120px;
+}
+.pic1:hover{
+   border-radius: 150px;                  /* تحويل الصورة لدائرة */
+}
+.pic2{
+    width: 160px;
+    height: 160px;
+    position: absolute;                 /* تنسيق الصورة الثانية */
+    top: 1280px;
+    left: 390px;
+}
+.pic2:hover{
+    width: 250px;
+    height: 250px;                      /* تغير ابعاد الصورة */
+    position: absolute;
+    top: 1190px;
+}
+.pic3{
+    width: 160px;
+    height: 160px;
+    position: absolute;                 /* تنسيق الصورة الثالثة */
+    top: 1458px;
+    left: 210px;
+}
+.pic3:hover{
+    width: 250px;
+    height: 250px;
+    position: absolute;                /* تغير ابعاد الصورة */
+    top: 1458px;
+    left: 120px;
+}
+.pic4{
+    width: 250px;
+    height: 250px;
+    position: absolute;                 /* تنسيق الصورة الرابعة */
+    top: 1458px;
+    left: 390px;
+}
+.pic4:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+ }
+ .about{
+    position: absolute;
+    top: 1200px;
+    left: 730px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+ }
+ .lin1{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 1275px;
+    left: 890px;
+ }
+ .about1{
+    position: absolute;
+    top: 1255px;
+    left: 730px;                                      /* اضافة نص عادى و التعديل عليه */
+    font-family: "M PLUS Rounded 1c", sans-serif;  
+    font-size: 350%;
+ }
+ .about11{
+    position: absolute;
+    top: 1310px;
+    left: 1030px;                                        /* اضافة نص عادى و التعديل عليه */
+    width: 60px;
+    height: 60px;
+ }
+ .about111{
+    position: absolute;
+    top: 1255px;
+    left: 1100px;                                         /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    font-family: "M PLUS Rounded 1c", sans-serif;  
+    font-size: 350%;
+ }
+ .about2{
+    width: 655px;
+    position: absolute;
+    top: 1375px;                                           /* اضافة نص عادى و التعديل عليه */
+    left: 730px;
+    font-family: "M PLUS Rounded 1c", sans-serif; 
+ }
+ .about22{
+    width: 655px;
+    position: absolute;
+    top: 1450px;                                           /* اضافة نص عادى و التعديل عليه */
+    left: 730px;
+    font-family: "M PLUS Rounded 1c", sans-serif; 
+ }
+ .lin2{
+    width: 65px;
+    height: 4px;
+    background-color: #fea116;
+    border: none;                                          /* عمل خط عادى وتم تدويرة بزاوية 90 درجة */
+    position: absolute;
+    top: 1590px;
+    left: 700px;
+    rotate: 90deg;
+ }
+ .about3{
+    position: absolute;
+    top: 1510px;
+    left: 745px;
+    font-family: "M PLUS Rounded 1c", sans-serif;              /* اضافة نص عادى و التعديل عليه */
+    font-size: 350%;
+    font-weight: bold;
+    color: #fea116;
+ }
+ .about33{
+    position: absolute;
+    top: 1560px;                                                 /* اضافة نص عادى و التعديل عليه */
+    left: 835px;
+    font-family: "M PLUS Rounded 1c", sans-serif;  
+ }
+ .about333{
+    position: absolute;
+    top: 1575px;
+    left: 835px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                 /* اضافة نص عادى و التعديل عليه */
+    font-variant: small-caps;
+    font-size: x-large;
+ }
+ .lin3{
+    width: 65px;
+    height: 4px;
+    background-color: #fea116;
+    border: none;                                                  /* عمل خط عادى وتم تدويرة بزاوية 90 درجة */
+    position: absolute;
+    top: 1590px;
+    left: 1050px;
+    rotate: 90deg;
+ }
+ .about4{
+    position: absolute;
+    top: 1510px;
+    left: 1100px;                                                    
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    font-size: 350%;
+    font-weight: bold;
+    color: #fea116;
+ }
+ .about44{
+    position: absolute;
+    top: 1560px;
+    left: 1190px;                                                      /* اضافة نص عادى و التعديل عليه */
+    font-family: "M PLUS Rounded 1c", sans-serif;  
+ }
+ .about444{
+    position: absolute;
+    top: 1575px;
+    left: 1190px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                       /* اضافة نص عادى و التعديل عليه */
+    font-variant: small-caps;
+    font-size: x-large;
+ }
+ .about4444{
+    width:165px ;
+    height: 57px;            
+    text-align: center;                                   /* عمل تنسيق للبلوك لعمل خانة للنص */
+    background-color: #fea116;
+    position: absolute;
+    top: 1652px;
+    left: 730px;
+}
+.about44444{
+    color: white;
+    font-size: large;
+    font-family: "Montserrat", sans-serif;                /* نص عادى معدل عليه */
+    text-transform: capitalize;
+}
+.about4444:hover{
+    background-color: black;
+}
+.about44444:hover{
+    color: #fea116;
+}
+/*الانتهاء من تنصيق الجزء الخاص بصور الدالة على الصقحة و نبزة عن الصفحة والترحيب*/
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* عمل تنسيق لعنوان قائمة الطعام و طريقة عرض الاصناف */
+.line1{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 1850px;
+    left: 890px;
+}
+.food{
+    position: absolute;
+    top: 1805px;
+    left: 755px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+}
+.line2{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 1850px;
+    left: 685px;
+}
+.food2{
+    position: absolute;
+    top: 1835px;
+    left: 580px;                                                    
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    font-size: 350%;
+    font-weight: bold;
+    color: #000000;
+}
+.line3{
+    width: 508px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2152px;
+    left: 580px;
+}
+.bl{
+    width: 150px;
+    height: 150px;
+    position: absolute;                                  /* التسيقات الخاصة بالبلوك */
+    top: 2010px;
+    left: 580px;
+    border-bottom: 3px solid transparent;
+}
+.bl:hover{
+    border-bottom: 3px solid  #fea116;
+}
+.cup{
+    width: 60px;
+    height: 60px;
+    position: absolute;                                       /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    top: 55px;
+    left: 0px;
+}
+.pll{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 42px;
+    left: 75px;
+}
+.plll{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 70px;
+    left: 75px;
+    font-size: medium;
+    font-weight: bolder;
+}
+.bl1{
+    width: 150px;
+    height: 150px;
+    position: absolute;                                       /* التسيقات الخاصة بالبلوك */
+    top: 2010px;
+    left: 761px;
+    border-bottom: 3px solid transparent;
+}
+.bl1:hover{
+    border-bottom: 3px solid  #fea116;
+}
+.bl11{
+    width: 60px;
+    height: 60px;                                                /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+.bl111{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 42px;
+    left: 75px;
+}
+.bl1111{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 70px;
+    left: 75px;
+    font-size: medium;
+    font-weight: bolder;
+}
+.bl2{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 2010px;                                      /* التسيقات الخاصة بالبلوك */
+    left: 938px;
+    border-bottom: 3px solid transparent;
+}
+.bl2:hover{
+    border-bottom: 3px solid  #fea116;
+}
+.bl22{
+    width: 60px;
+    height: 60px;                                       /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    position: absolute;
+    top: 55px;
+    left: 0px;
+}
+.bl222{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 42px;
+    left: 75px;
+}
+.bl2222{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 70px;
+    left: 75px;
+    font-size: medium;
+    font-weight: bolder;
+}
+
+                                  /* |||||||||||||||||||| عمل نافذة جديدة |||||||||||||||||*/
+
+.pi1{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 2270px;
+    left: 100px;
+}
+.pi1:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi111{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2280px;
+    left: 275px;
+}
+.pi1111{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2280px;
+    left: 690px;
+    color: #fea116;
+}
+.ln1{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2345px;
+    left: 275px;
+}
+.pi11111{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2360px;
+    left: 275px;
+    font-style: italic;
+}
+.pi2{
+    width: 150px;
+    height: 150px;                                          /* عمل التنسيقات على الصورة المضافة */
+    position: absolute;
+    top: 2270px;
+    left: 760px;
+}
+.pi2:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi222{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2280px;
+    left: 940px;
+}
+.pi2222{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2280px;
+    left: 1352px;
+    color: #fea116;
+}
+.ln2{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2345px;
+    left: 940px;
+}
+.pi22222{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2360px;
+    left: 940px;
+    font-style: italic;
+}
+.pi3{
+    width: 150px;
+    height: 150px;                                        /* عمل التنسيقات على الصورة المضافة */
+    position: absolute;
+    top: 2450px;
+    left: 100px;
+}
+.pi3:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi33{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2460px;
+    left: 275px;
+}
+.pi333{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2460px;
+    left: 690px;
+    color: #fea116;
+}
+.ln3{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2525px;
+    left: 275px;
+}
+.pi3333{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2540px;
+    left: 275px;
+    font-style: italic;
+}
+.pi4{
+    width: 150px;
+    height: 150px;                                      /* عمل التنسيقات على الصورة المضافة */
+    position: absolute;
+    top: 2450px;
+    left: 760px;
+}
+.pi4:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi44{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2450px;
+    left: 940px;
+}
+.pi444{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2450px;
+    left: 1352px;
+    color: #fea116;
+}
+.ln4{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2525px;
+    left: 940px;
+}
+.pi4444{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2540px;
+    left: 940px;
+    font-style: italic;
+}
+.pi5{
+    width: 150px;
+    height: 150px;
+    position: absolute;                                         /* عمل التنسيقات على الصورة المضافة */
+    top: 2630px;
+    left: 100px;
+}
+.pi5:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi55{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2640px;
+    left: 275px;
+}
+.pi555{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2640px;
+    left: 690px;
+    color: #fea116;
+}
+.ln5{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2712px;
+    left: 275px;
+}
+.pi5555{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2725px;
+    left: 275px;
+    font-style: italic;
+}
+.pi6{
+    width: 150px;
+    height: 150px;
+    position: absolute;                                    /* عمل التنسيقات على الصورة المضافة */
+    top: 2630px;
+    left: 760px;
+}
+.pi6:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi66{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2640px;
+    left: 940px;
+}
+.pi666{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2640px;
+    left: 1352px;
+    color: #fea116;
+}
+.ln6{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2712px;
+    left: 940px;
+}
+.pi6666{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2725px;
+    left: 940px;
+    font-style: italic;
+}
+.pi7{
+    width: 150px;
+    height: 150px;
+    position: absolute;                           /* عمل التنسيقات على الصورة المضافة */
+    top: 2810px;                                                         
+    left: 100px;
+}
+.pi7:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi77{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2820px;
+    left: 275px;
+}
+.pi777{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2820px;
+    left: 690px;
+    color: #fea116;
+}
+.ln7{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2893px;
+    left: 275px;
+}
+.pi7777{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2910px;
+    left: 275px;
+    font-style: italic;
+}
+.pi8{
+    width: 150px;
+    height: 150px;                                 /* عمل التنسيقات على الصورة المضافة */
+    position: absolute;
+    top: 2810px;
+    left: 760px;
+}
+.pi8:hover{
+    border-radius: 150px;               /* تحويل الصورة الى دائرة */
+}
+.pi88{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2820px;
+    left: 940px;
+}
+.pi888{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2820px;
+    left: 1352px;
+    color: #fea116;
+}
+.ln8{
+    width: 470px;
+    height: 2px;
+    background-color:gray;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 2893px;
+    left: 940px;
+}
+.pi8888{
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    position: absolute;
+    top: 2910px;
+    left: 940px;
+    font-style: italic;
+}
+/* الانتهاء من عمل تنسيق لعنوان قائمة الطعام و طريقة عرض الاصناف */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* عمل تنسيق لفيديو المطعم و استمارة الشراء */
+.vido{
+    width: 750px;
+    height: 425px;                 /* اضافة فيديو و التعديل عليه */
+    position: absolute;
+    top: 3060px;
+}
+.form{
+    background-color: #0f172b;
+    width: 750px;
+    height: 424px;
+    position: absolute;                  /* عمل بلوك والتنسيق عليه */
+    top: 3061px;
+    left: 758px;
+}
+.form1{
+    position: absolute;
+    top: 15px;
+    left: 50px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: x-large;
+ }
+ .lin9{
+    width: 65px;
+    height: 1px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 47px;
+    left: 170px;
+    
+ }
+ .form2{
+    position: absolute;
+    top: 40px;
+    left: 50px;                                                    
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    font-size: 250%;
+    font-weight: bold;
+    color: #ffffff;
+}
+.for1{
+    position: absolute;
+    top: 145px;
+    left: 55px;  
+    width: 290px;                                           /* تنسيق خانة اضافة البيانات */
+    height: 48px;
+    padding-left: 10px;
+}
+.for2{
+    position: absolute;
+    top: 145px;
+    left: 380px;                                               /* تنسيق خانة اضافة البيانات */
+    width: 290px;
+    height: 48px;
+    padding-left: 10px;
+}
+.for3{
+    position: absolute;
+    top: 210px;
+    left: 55px;                                                   /* تنسيق خانة اضافة البيانات */
+    width: 290px;
+    height: 48px;
+    padding-left: 10px;
+}
+.for4{
+    position: absolute;
+    top: 210px;
+    left: 380px;  
+    width: 305px;                                                  /* تنسيق القائمة المنسدلة */
+    height: 53px;
+    padding-left: 10px;
+}
+.for5{
+    position: absolute;
+    top: 275px;
+    left: 55px;  
+    width: 615px;                                                       /* تنسيق خانة اضافة البيانات */
+    height: 60px;
+    padding-left: 10px;
+}
+.for6{
+    position: absolute;
+    top: 355px;
+    left: 55px;  
+    width: 630px;
+    height: 47px;
+    background-color: #fea116;                                       /* تنسيق الزر الخاص بإرسال البيانات */
+    font-weight: bold;
+    color: white;
+}
+.for6:hover {
+    background-color: black;
+    color: #fea116;
+}
+/* الانتهاء من عمل تنسيق لفيديو المطعم و استمارة الشراء */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* تنسيق تعريف اعضاء العمل و البلوكات الخاصة بهم */
+.line10{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 3605px;
+    left: 650px;
+}
+.tem{
+    position: absolute;
+    top: 3565px;
+    left: 725px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+}
+.line11{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 3605px;
+    left: 910px;
+}
+.tem1{
+    position: absolute;
+    top: 3600px;
+    left: 590px;                                                    
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    font-size: 350%;
+    font-weight: bold;
+    color: #000000;
+}
+.tem2{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;                           /* تنسيقات الخاصة بالبلوك  */
+    top: 3805px;
+    left: 120px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.tem2:hover{
+    background-color: #000000;
+} 
+.tem2:hover h3.tem222 {
+    color: white;
+}
+.tem2:hover p.tem2222 {
+    color: white;
+}
+.tem22{
+    border-radius: 120px;
+    width: 160px;
+    height: 160px;
+    position: absolute;                                           /* تنسيق الصورة */
+    top: 20px;
+    left: 40px;
+}
+.tem222{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق عنوان البلوك  */                              
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+.tem2222{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق نص عادى */                              
+    position: absolute;
+    top: 195px;
+    left: 58px;
+}
+.tem3{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;                                           /* تنسيقات الخاصة بالبلوك  */
+    position: absolute;                                             
+    top: 3805px;
+    left: 470px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.tem3:hover{
+    background-color: #000000;
+} 
+.tem3:hover h3.tem333 {
+    color: white;
+}
+.tem3:hover p.tem3333 {
+    color: white;
+}
+.tem33{
+    border-radius: 120px;
+    width: 160px;
+    height: 160px;
+    position: absolute;                                             /* تنسيق الصورة */
+    top: 20px;
+    left: 40px;
+}
+.tem333{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق عنوان البلوك  */                              
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+.tem3333{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق نص عادى */                              
+    position: absolute;
+    top: 195px;
+    left: 58px;
+}
+.tem4{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 254, 254);
+    display: inline-block;                                            /* تنسيقات الخاصة بالبلوك  */
+    position: absolute;                                             
+    top: 3805px;
+    left: 820px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.tem4:hover{
+    background-color: #000000;
+} 
+.tem4:hover h3.tem444 {
+    color: white;
+}
+.tem4:hover p.tem4444 {
+    color: white;
+}
+.tem44{
+    border-radius: 120px;
+    width: 160px;
+    height: 160px;
+    position: absolute;                                           /* تنسيق الصورة */
+    top: 20px;
+    left: 40px;
+}
+.tem444{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق عنوان البلوك  */                              
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+.tem4444{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق نص عادى */                              
+    position: absolute;
+    top: 195px;
+    left: 58px;
+}
+.tem5{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;                                             /* تنسيقات الخاصة بالبلوك  */
+    position: absolute;
+    top: 3805px;
+    left: 1160px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.tem5:hover{
+    background-color: #000000;
+} 
+.tem5:hover h3.tem555 {
+    color: white;
+}
+.tem5:hover p.tem5555 {
+    color: white;
+}
+.tem55{
+    border-radius: 120px;
+    width: 160px;
+    height: 160px;                                      /* تنسيق الصورة */
+    position: absolute;
+    top: 20px;
+    left: 40px;
+}.tem555{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق عنوان البلوك  */                              
+    position: absolute;
+    top: 170px;
+    left: 60px;
+}
+.tem5555{
+    padding-left: 20px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                  /* تنسيق نص عادى */                              
+    position: absolute;
+    top: 195px;
+    left: 58px;
+}
+/* الانتهاء من تنسيق تعريف اعضاء العمل و البلوكات الخاصة بهم */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* عمل تنسيق للبلوكات الخاصة بأراء العملاء */
+.line12{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 4220px;
+    left: 650px;
+}
+.cast{
+    position: absolute;
+    top: 4180px;
+    left: 745px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xx-large;
+}
+.line13{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 4220px;
+    left: 910px;
+}
+.cast1{
+    position: absolute;
+    top: 4220px;
+    left: 590px;                                                    
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+    font-size: 350%;
+    font-weight: bold;
+    color: #000000;
+}
+.cast2{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;                           /* تنسيقات الخاصة بالبلوك  */
+    top: 4415px;
+    left: 120px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.cast2:hover{
+    background-color: #fea116;
+}
+.cast2:hover .cast22{
+    fill: white;
+}
+.cast2:hover .cast222{
+    color: white;
+}
+.cast2:hover .cast22222{
+    color: white;
+}
+.cast2:hover .cast222222{
+    color: white;
+}
+.cast22{
+    position: absolute;
+    top : 20px;
+    left: 10px;                                                     /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    width: 60px;                                               
+    height: 50px;
+    fill: #fea116;
+}
+.cast222{
+    color: gray;
+    position: absolute;
+    top : 80px;
+    left: 10px;
+    width: 330px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+}
+.cast2222{
+    position: absolute;
+    top : 200px;
+    left: 10px;
+    width: 105px;                                                      /* تنسيق الصورة */
+    height: 105px;
+    border-radius: 120px;
+}
+.cast22222{
+    position: absolute;
+    top : 200px;
+    left: 135px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+}
+.cast222222{
+    position: absolute;
+    top : 240px;
+    left: 135px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                      /* اضافة نص عادى و التعديل عليه */
+    color: gray;
+}
+.cast3{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;                           /* تنسيقات الخاصة بالبلوك  */
+    top: 4415px;
+    left: 595px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.cast3:hover{
+    background-color: #fea116;
+}
+.cast3:hover .cast33{
+    fill: white;
+}
+.cast3:hover .cast333{
+    color: white;
+}
+.cast3:hover .cast33333{
+    color: white;
+}
+.cast3:hover .cast333333{
+    color: white;
+}
+.cast33{
+    position: absolute;
+    top : 20px;
+    left: 10px;
+    width: 60px;                                                  /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    height: 50px;
+    fill: #fea116;
+}
+.cast333{
+    color: gray;
+    position: absolute;
+    top : 80px;
+    left: 10px;
+    width: 330px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+}
+.cast3333{
+    position: absolute;
+    top : 200px;
+    left: 10px;
+    width: 105px;
+    height: 105px;                                                     /* تنسيق الصورة */
+    border-radius: 120px;
+}
+.cast33333{
+    position: absolute;
+    top : 200px;
+    left: 135px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+}
+.cast333333{
+    position: absolute;
+    top : 240px;
+    left: 135px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                      /* اضافة نص عادى و التعديل عليه */
+    color: gray;
+}
+.cast4{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    position: absolute;                           /* تنسيقات الخاصة بالبلوك  */
+    top: 4415px;
+    left: 1060px;
+    box-shadow: 1px 1px 80px 0 #262626;
+}
+.cast4:hover{
+    background-color: #fea116;
+}
+.cast4:hover .cast44{
+    fill: white;
+}
+.cast4:hover .cast444{
+    color: white;
+}
+.cast4:hover .cast44444{
+    color: white;
+}
+.cast4:hover .cast444444{
+    color: white;
+}
+.cast44{
+    position: absolute;
+    top : 20px;
+    left: 10px;
+    width: 60px;                                              /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    height: 50px;
+    fill: #fea116;
+}
+.cast444{
+    color: gray;
+    position: absolute;
+    top : 80px;                                                 /* اضافة نص عادى و التعديل عليه */
+    left: 10px;
+    width: 330px;
+    font-family: "M PLUS Rounded 1c", sans-serif; 
+}
+.cast4444{
+    position: absolute;
+    top : 200px;
+    left: 10px;
+    width: 105px;                                                    /* تنسيق الصورة */             
+    height: 105px;
+    border-radius: 120px;
+}
+.cast44444{
+    position: absolute;
+    top : 200px;
+    left: 135px;
+    font-family: "M PLUS Rounded 1c", sans-serif;                    /* اضافة نص عادى و التعديل عليه */
+}
+.cast444444{
+    position: absolute;
+    top : 240px;
+    left: 135px;                                                    /* اضافة نص عادى و التعديل عليه */
+    font-family: "M PLUS Rounded 1c", sans-serif; 
+    color: gray;
+}
+.cast5{
+    width: 30px;
+    height: 30px;
+    border-radius: 120px;
+    position: absolute;
+    top: 4850px;                                        /* عمل تنسيق للبلوك الصغير وتحويله لدائرة */
+    left: 685px;
+    box-shadow: 1px 1px 80px 0 #262626;
+    border: #000000 2px solid;
+}
+.cast2:hover ~ .cast5{
+    background-color: #fea116;
+}
+.cast6{
+    width: 30px;
+    height: 30px;
+    border-radius: 120px;
+    position: absolute;
+    top: 4850px;
+    left: 745px;                                     /* عمل تنسيق للبلوك الصغير وتحويله لدائرة */
+    box-shadow: 1px 1px 80px 0 #262626;
+    border: #000000 2px solid;
+}
+.cast3:hover ~ .cast6{
+    background-color: #fea116;
+}
+.cast7{
+    width: 30px;
+    height: 30px;
+    border-radius: 120px;
+    position: absolute;
+    top: 4850px;                                  /* عمل تنسيق للبلوك الصغير وتحويله لدائرة */
+    left: 805px;
+    box-shadow: 1px 1px 80px 0 #262626;
+    border: #000000 2px solid;
+}
+.cast4:hover ~ .cast7{
+    background-color: #fea116;
+}
+/* الانتهاء من عمل عمل تنسيق للبلوكات الخاصة بأراء العملاء */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* عمل التنسيقات الخاصة بمعلومات المؤسسه و وسائل الاتصال */
+.foot{
+    width: 1500px;
+    height: 570px;                    /* تعين حجم للبلوك المطلوب الشغل له */
+    background-color: #0d0d31;
+    position: absolute;
+    top: 5030px;
+}
+.com{
+    position: absolute;
+    top: 5050px;
+    left: 55px;
+    color: #fea116;                                /* عمل نص عادى التعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+}
+.lin111{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 5115px;
+    left: 225px;
+}
+.cont{
+    position: absolute;
+    top: 5050px;
+    left: 440px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+}
+.lin22{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 5115px;
+    left: 590px;
+}
+.open{
+    position: absolute;
+    top: 5050px;
+    left: 795px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+}
+.lin33{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 5115px;
+    left: 955px;
+}
+.news{
+    position: absolute;
+    top: 5050px;
+    left: 1175px;
+    color: #fea116;                                /* عمل نص عادى ةالتعديل عليه */
+    font-family: "Dancing Script", cursive;
+    font-size: xxx-large;
+}
+.lin44{
+    width: 65px;
+    height: 2px;
+    background-color: #fea116;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 5115px;
+    left: 1400px;
+}
+.father1{
+    position: absolute;
+    top: 5070px;                                /* تنسيقات الخاصة بالبلوك  */
+    left: 65px;
+    width: 250px;
+}
+.icon1{
+    position: absolute;                         /* تنسيقات الخاصة بالبلوك  */              
+    top: 106px;
+}
+.icon11{
+   width: 10px;
+   height: 30px;                               /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+   padding: 5px;
+}
+.text1{
+    position: absolute;
+    top: 91px;                                        /* عمل نص عادى ةالتعديل عليه */
+    left: 25px;
+}
+.text11{
+    font-family: "M PLUS Rounded 1c", sans-serif;      /* عمل نص عادى ةالتعديل عليه */
+    font-weight: bold;  
+    text-transform: capitalize;
+}
+.father2{
+    position: absolute;
+    top: 5070px;                                    /* تنسيقات الخاصة بالبلوك  */
+    left: 445px;
+    width: 250px;
+}
+.icon2{
+    position: absolute;                              /* تنسيقات الخاصة بالبلوك  */
+    top: 105px;
+}
+.icon22{
+   width: 15px;
+   height: 31px;                                /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+   padding: 5px;
+}
+.text2{
+    position: absolute;
+    top: 91px;
+    left: 45px;                                         /* عمل نص عادى ةالتعديل عليه */
+    width: 210px;
+}
+.text22{
+    font-family: "M PLUS Rounded 1c", sans-serif;        /* عمل نص عادى ةالتعديل عليه */
+    font-weight: bold;  
+}
+.red1{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;                             /* عمل تنسيق للبلوك الصغير وتحويله لدائرة */
+    border-radius: 180px;
+    position: absolute;
+    top: 5305px;
+    left: 450px;
+}
+.red11{
+    width: 20px;
+    height: 20px;
+    position: absolute;                                      /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    top: 7px;
+    left: 7px;
+}
+.red2{
+    width: 35px;
+    height: 35px;
+    background-color: white;
+    border: 2px solid white;                                 /* عمل تنسيق للبلوك الصغير وتحويله لدائرة */
+    border-radius: 180px;
+    position: absolute;
+    top: 5305px;
+    left: 495px;
+}
+.red22{
+    width: 37px;
+    height: 35px;
+    position: absolute;                                        /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    top: 0px;
+    left: -1px;
+}
+.red3{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;                                  /* عمل تنسيق للبلوك الصغير وتحويله لدائرة */
+    border-radius: 180px;
+    position: absolute;
+    top: 5305px;
+    left: 540px;
+}
+.red33{
+    width: 20px;
+    height: 20px;
+    position: absolute;                                         /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    top: 7px;
+    left: 7px;
+}
+.red4{
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;                                      /* عمل تنسيق للبلوك الصغير وتحويله لدائرة */
+    border-radius: 180px;
+    position: absolute;
+    top: 5305px;
+    left: 585px;
+}
+.red44{
+    width: 20px;
+    height: 20px;
+    position: absolute;                                             /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    top: 7px;
+    left: 7px;
+}
+.text3{
+    position: absolute;
+    top: 5160px;
+    left: 805px;                                        /* عمل نص عادى ةالتعديل عليه */
+    width: 210px;
+}
+.text33{
+    font-family: "M PLUS Rounded 1c", sans-serif;        /* عمل نص عادى ةالتعديل عليه */
+    font-weight: bold;  
+}
+.text333{
+    position: absolute;
+    top: 100px;                                          /* عمل نص عادى ةالتعديل عليه */
+    left: 0px;
+}
+.text4{
+    position: absolute;
+    top: 5160px;
+    left: 1185px;                                         /* عمل نص عادى ةالتعديل عليه */
+    width: 315px;
+    font-family: "M PLUS Rounded 1c", sans-serif; 
+    font-weight: bold;  
+}
+.for22{
+    position: absolute;
+    top: 5270px;
+    left: 1185px;                                               /* تنسيق خانة اضافة البيانات */
+    width: 290px;
+    height: 48px;
+    padding-left: 10px;
+}
+.for44{
+    position: absolute;
+    top: 5277px;
+    left: 1404px;
+    width: 80px;
+    height: 40px;
+    font-family: "M PLUS Rounded 1c", sans-serif;             /* اضافة زر لتنفيذ ارسال البيانات */
+    font-weight: bold;
+    background-color: #fea116;
+    color: white;
+}
+.for44:hover{
+    background-color: rgb(0, 0, 0);
+    color: #fea116;
+}
+.line-end1{
+    width: 1410px;
+    height: 2px;
+    background-color: #595959;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 5430px;
+    left: 55px;
+}
+.icon4{
+    position: absolute;
+    top: 5485px;
+    left: 55px;                                     /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    width: 20px;
+    height: 20px;
+}
+.text5{
+    position: absolute;
+    top: 5465px;
+    left: 85px;
+    font-family: "M PLUS Rounded 1c", sans-serif;         /* عمل نص عادى ةالتعديل عليه */
+    font-weight: bold;
+}
+.text55{
+    text-decoration: underline 7px ;                       /* عمل نص عادى ةالتعديل عليه */
+}
+.text6{
+    position: absolute;
+    top: 5525px;
+    left: 55px;
+    font-family: "M PLUS Rounded 1c", sans-serif;             /* عمل نص عادى ةالتعديل عليه */
+    font-weight: bold;
+}
+.text66{
+    text-decoration: underline 7px ;                           /* عمل نص عادى ةالتعديل عليه */
+}
+.father4{
+    position: absolute;
+    top: 5440px;
+    left: 1055px;
+    display: flex;
+}
+.text7{
+    font-family: "M PLUS Rounded 1c", sans-serif;                /* عمل نص عادى ةالتعديل عليه */
+    font-weight: bold;
+    padding: 25px;
+}
+.line-end2{
+    width: 30px;
+    height: 2px;
+    rotate: 90Deg;
+    background-color: #595959;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 45px;
+    left: 75px;
+}
+.line-end3{
+    width: 30px;
+    height: 2px;
+    rotate: 90Deg;
+    background-color: #595959;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 45px;
+    left: 185px;
+}
+.line-end4{
+    width: 30px;
+    height: 2px;
+    rotate: 90Deg;
+    background-color: #595959;                   /* اضافة خط عادى لعمل شكل جمالى للنص */
+    border: none;
+    position: absolute;
+    top: 45px;
+    left: 265px;
+}
+.but1{
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 25px;                                    /* تنسيق الزر الخاص بعمل سكرول للاعلى */
+    left: 370px;
+    padding: 0px;
+    background-color: #fea116;
+    border-radius: 10px;
+}
+.but1:hover .but22{
+    fill: rgb(0, 0, 0);
+}
+.but22{
+    width: 60px;
+    height: 60px;                                /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    fill: white;
+    rotate: 270deg;
+}
+/* الانتهاء من عمل التنسيقات الخاصة بمعلومات المؤسسه و وسائل الاتصال */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* تنسيق نافذة مل تكريم للقائد والمشرف على العمل */
+.hoda1{
+    position: absolute;
+    top: 5685px;
+    left: 650px;
+    border-radius: 150px;
+    width: 250px;
+    height: 250px;                                    /* اضافة صورة والتعديل عليها */
+    box-shadow: 1px 1px 80px 50px #e5839a;
+    animation-name: hoda1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes hoda1{
+    from{
+        box-shadow: 1px 1px 80px 50px #e5839a;     /* الجزئ المسؤول عن الرسومات المتحركة */
+    }
+    to{
+        box-shadow: 1px 1px 80px 50px #738e4b;     /* الجزئ المسؤول عن الرسومات المتحركة */
+    }
+}
+.hoda2{
+    position: absolute;
+    top: 5685px;
+    left: 320px;
+    border-radius: 150px;                                /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    width: 250px;
+    height: 250px
+}
+.hoda3{
+    position: absolute;
+    top: 5685px;
+    left: 965px;
+    border-radius: 150px;                                /* عمل تنسيق للأيقون او الوسم المراد داخل الصفحة */
+    width: 250px;
+    height: 250px
+}
+.hoda4{
+    position: absolute;
+    top: 6020px;
+    left: 440px;
+    border: 10px solid black;                 /* تنسيقات الخاصة بالبلوك  */
+    width: 640px;
+    height: 230px;
+    border-radius: 50px 50px 50px 50px;
+}
+.hoda5{
+    direction: rtl;
+    text-align: center;
+    font-family: "Fustat", sans-serif;                 /* اضافة نص عادى و التعديل عليه */
+}
+.hoda6{
+    direction: rtl;
+    text-align: center;
+    font-family: "Fustat", sans-serif;
+    font-size: 400%;                                  /* اضافة نص عادى و التعديل عليه */
+    animation-name: hoda6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes hoda6{
+    from{
+        color: #000000;                   /* الجزئ المسؤول عن الرسومات المتحركة */
+    }
+    to{
+        color: blue;                      /* الجزئ المسؤول عن الرسومات المتحركة */
+    }
+}
+.fin{
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 6275px;
+    left: 440px;
+}
+/* الانتهاء من تنسيق نافذة مل تكريم للقائد والمشرف على العمل */
+
+/*/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+                                                                    
+
+                                                            /*////////////////////////////*/
+                                                               /* عبدالقادر الشهاوي */
+                                                            /*////////////////////////////*/
